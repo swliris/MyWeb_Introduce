@@ -1,0 +1,128 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+* {
+    margin: 0;
+    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+    animation-name: all;
+    animation-duration: 1.5s;
+    word-break: keep-all;
+}
+
+a {
+    text-decoration: none;
+}
+
+@keyframes all {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+header {
+    box-shadow: 0 2px 20px gray;
+    background-color: #f7f7f7;
+    width: 100%;
+    height: 900px;
+}
+
+#down {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a#title {
+    display: block;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30pt;
+    margin-bottom: 20pt;
+    text-align: center;
+}
+
+p#nav {
+    text-align: center;
+}
+
+p#footer {
+    text-align: left;
+}
+
+a.a_nav {
+    color: black;
+    text-decoration: none;
+}
+
+a.a_nav:hover {
+    font-weight: bold;
+    font-style: italic;
+}
+
+img#down {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75px;
+}
+
+#main_1 {
+    background-color: #70b594;
+    color: white;
+    line-height: 900px;
+}
+
+p#p_main_1 {
+    text-align: center;
+    font-size: 40pt;
+}
+
+#main_2 {
+    background-color: #eaa64f;
+    color: white;
+}
+
+p#p_main_2 {
+    text-align: center;
+    font-size: 40pt;
+    padding-top: 370px;
+    padding-bottom: 370px;
+}
+
+#main_3 {
+    background-color: #5f64b7;
+    color: white;
+}
+
+p#p_main_3 {
+    text-align: center;
+    font-size: 40pt;
+    padding-top: 400px;
+    padding-bottom: 400px;
+}
+
+#main_4 {
+    background-color: #a1cced;
+    color: white;
+}
+
+p#p_main_4 {
+    text-align: center;
+    font-size: 40pt;
+    padding-top: 370px;
+    padding-bottom: 370px;
+}
+
+big {
+    font-family: Raleway;
+    font-size: 20pt;
+}
+
+footer {
+    background-color: #f7f7f7;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 0 -2px 20px gray;
+}
+
+address {
+    font-style: normal;
+}

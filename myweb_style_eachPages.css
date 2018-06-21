@@ -1,0 +1,105 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+* {
+    margin: 0;
+    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+    animation-name: all;
+    animation-duration: 1.5s;
+    word-break: keep-all;
+}
+
+@keyframes all {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+header {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    box-shadow: 0 2px 20px gray;
+    background-color: #f7f7f7;
+    
+}
+
+a#title {
+    display: block;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30pt;
+    margin-bottom: 20pt;
+    text-align: center;
+    text-decoration: none;
+}
+
+p#nav {
+    text-align: center;
+}
+
+a.a_nav {
+    color: black;
+    text-decoration: none;
+}
+
+a.a_nav:hover {
+    font-weight: bold;
+    font-style: italic;
+}
+
+section {
+    margin: 30px;
+    padding: 20px;
+    border: 2px solid grey;
+    border-radius: 25px;
+}
+
+h1 {
+    font-size: 22pt;
+}
+
+img {
+    border-radius: 15px;
+}
+
+a {
+    color: black;
+}
+
+img#sunrin {
+    float: right;
+    margin-top: 10pt;
+    border-radius: 0px;
+}
+
+video {
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+big {
+    font-family: Raleway;
+    font-size: 20pt;
+}
+
+footer {
+    background-color: #f7f7f7;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 0 -2px 20px gray;
+}
+
+address {
+    font-style: normal;
+}
+
+.feelings {
+    float: right;
+    margin-bottom: 10px;
+}
+
+img[alt="나"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
